@@ -1,0 +1,22 @@
+{
+  "name": "ai-helper",
+  "version": "1.0.0",
+  "description": "AI Helper tools for document processing",
+  "type": "module",
+  "scripts": {
+    "read-docx": "node scripts/read-docx.js",
+    "modify-docx": "node scripts/modify-docx.js",
+    "read-pdf": "node scripts/read-pdf.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.6.0",
+    "docx": "^8.5.0",
+    "pizzip": "^3.1.4",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.0.379"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
+
